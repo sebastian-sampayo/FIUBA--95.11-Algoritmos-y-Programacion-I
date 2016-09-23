@@ -1,0 +1,32 @@
+TDA_Vector_Set_Printer()
+Cargar_Vector(directorio, vector)
+  -abro directorio
+  -empiezo a leer directorio
+    -abro archivo
+    -Cargar_Track(vector, archivo)
+      -declarar variable TDA_MP3_t
+      -asignarle TDA_MP3_Crear()
+      -leer bytes de c/atributo
+      -guardar en miembro correspondiente de TDA_MP3
+      -seteo printer del track
+      -TDA_Vector_Append (vector, track)
+    -cierro archivo
+  -cierro directorio
+Ordenar()
+Imprimir() #puntero a funcion
+  -abrir archivo de salida
+  -ciclo para recorrer los elementos del vector
+    -TDA_MP3_Imprimir()
+  -cierro archivo
+
+
+void printer_csv(void *dato, FILE* fo) #el *dato es un *TDA_MP3
+-abrir fo
+-obtener titulo e imprimirlo
+-imprimir Caracter delimitador
+-obtener artista e imprimirlo
+-imprimir Delimitador
+-obtener genero
+-imprimir delimitador
+-imprimir nuevalinea
+

@@ -1,0 +1,60 @@
+Mapa de PROTOTIPOS
+
+/******************* PROTOTIPOS TDA VECTOR ******************/
+status_t ADT_Array_Create(ADT_Array_t **);
+    void ADT_Array_Destroy(ADT_Array_t **);
+status_t ADT_Array_Set_destructor(ADT_Array_t *, destructor_t );
+status_t ADT_Array_Append(ADT_Array_t *, void *);
+  size_t ADT_Array_Get_size(ADT_Array_t *);
+status_t ADT_Array_Get_element_at(ADT_Array_t *, size_t , void **);
+/*status_t ADT_Array_Export2CSV (ADT_Array_t *, string );*/
+status_t ADT_Array_Print (ADT_Array_t *, FILE *);
+status_t ADT_Array_Set_printer (ADT_Array_t *, Array_printer_t );
+/***********************************************************/
+
+/****************** PROTOTIPOS TDA MP3 ************************/
+status_t ADT_MP3_Create (ADT_MP3_t **);
+status_t ADT_MP3_Set_Title (ADT_MP3_t *, string);
+status_t ADT_MP3_Set_Artist (ADT_MP3_t *, string);
+status_t ADT_MP3_Set_Genre (ADT_MP3_t *, string);
+status_t ADT_MP3_Get_Title (ADT_MP3_t *, string *);
+status_t ADT_MP3_Get_Artist (ADT_MP3_t *, string *);
+status_t ADT_MP3_Get_Genre (ADT_MP3_t *, string *);
+/*status_t ADT_MP3_Print_CSV (ADT_MP3_t *, FILE *);*/
+status_t ADT_MP3_Print (ADT_MP3_t *, FILE *);
+status_t ADT_MP3_Set_printer (ADT_MP3_t *, MP3_printer_t );
+void ADT_MP3_Destroy (ADT_MP3_t **);
+void ADT_MP3_Destroy_Title (ADT_MP3_t *);
+void ADT_MP3_Destroy_Artist (ADT_MP3_t *);
+void ADT_MP3_Destroy_Genre (ADT_MP3_t *);
+/*************************************************************/
+
+/************ PROTOTIPOS DE FUNCIONES DE DATOS ************/
+status_t Load_Vector (string , ADT_Array_t *);
+status_t Load_Track (ADT_Array_t *, FILE *);
+void destroy_atributes (void *);
+status_t Validate_and_SetOptions(int , char *[], string *);
+status_t array_printer (const void *, FILE *);
+status_t track_printer (const void *, FILE *);
+/**********************************************************/
+
+/********* PROTOTIPOS UTILIDADES *********/
+status_t strdup(string *, const string );
+status_t my_strcat(string *, string );
+void logmsg(string );
+void logstr(string , string);
+void logint(string , int );
+/*****************************************/
+
+/**************** PROTOTIPOS CSV ****************/
+status_t Export2CSV (ADT_Array_t *, string );
+status_t Print_CSV (ADT_MP3_t *, FILE *);
+/***********************************************/
+/**************** PROTOTIPOS HTML ****************/
+status_t Export2HTML (ADT_Array_t *, string );
+status_t Print_HTML (ADT_MP3_t *, FILE *);
+/*************************************************/
+/**************** PROTOTIPOS XML ****************/
+status_t Export2XML (ADT_Array_t *, string );
+status_t Print_XML (ADT_MP3_t *, FILE *);
+/***********************************************/

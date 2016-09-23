@@ -1,0 +1,40 @@
+#ifndef SETUP__H
+#define SETUP__H
+
+#define FILE_OUT_NAME "my_mp3_index"
+
+#define MAX_AMOUNT_OF_ARGUMENTS 7
+#define ARGV_MODIFIER_FORMAT_STRING "-fmt"
+#define ARGV_MODIFIER_SORT_STRING "-sort"
+#define ARGV_MODIFIER_PATH_STRING "-path"
+#define ARGV_FORMAT_CSV_STRING "CSV"
+#define ARGV_FORMAT_HTML_STRING "HTML"
+#define ARGV_FORMAT_XML_STRING "XML"
+#define ARGV_SORT_TITLE_STRING "title"
+#define ARGV_SORT_ARTIST_STRING "artist"
+
+#define MP3_HEADER_SIZE 128
+#define MP3_ATTRIBUTE_MAX_SIZE 30
+
+#define LEXEM_START_TAG     0
+#define LEXEM_SPAN_TAG      3
+
+#define LEXEM_START_TITLE   3
+#define LEXEM_SPAN_TITLE   30
+
+#define LEXEM_START_ARTIST 33
+#define LEXEM_SPAN_ARTIST  30
+
+#define LEXEM_START_ALBUM  63
+#define LEXEM_SPAN_ALBUM   30
+
+#define LEXEM_START_YEAR   93
+#define LEXEM_SPAN_YEAR     4
+
+#define LEXEM_START_COMMENT 97
+#define LEXEM_SPAN_COMMENT  30
+
+#define LEXEM_START_GENRE  127
+#define LEXEM_SPAN_GENRE     1
+
+#endif

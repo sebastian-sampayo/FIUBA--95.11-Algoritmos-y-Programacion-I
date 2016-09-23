@@ -1,0 +1,877 @@
+Fri Dec 16 23:59:21 2011
+-Debug-|valide, voy a crear vector|
+Fri Dec 16 23:59:21 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Fri Dec 16 23:59:21 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 00:05:40 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 00:05:40 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 00:05:40 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 00:05:40 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:12:41 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 00:12:41 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 00:12:41 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 00:12:41 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:14:51 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 00:14:51 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 00:14:51 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 00:14:51 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:16:05 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 00:16:05 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 00:16:05 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 00:16:05 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:16:05 2011
+-Debug-|ruta = |ÀS¿03 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:17:34 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 00:17:34 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 00:17:34 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 00:17:34 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:17:34 2011
+-Debug-|ruta = |/home/max/test103 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:18:02 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 00:18:02 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 00:18:02 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 00:18:02 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:18:02 2011
+-Debug-|ruta = |/home/max/test1/03 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:18:02 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 00:18:02 2011
+-Debug-|ruta = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 00:18:02 2011
+-Debug-|dp->d_name = |02 - Guerrilla Radio.mp3|
+Sat Dec 17 00:18:02 2011
+-Debug-|ruta = |/home/max/test1/02 - Guerrilla Radio.mp3|
+Sat Dec 17 00:18:02 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 00:18:02 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 00:18:02 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 00:18:02 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 00:43:34 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 00:43:34 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 00:43:34 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 00:43:34 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 00:43:34 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 00:43:34 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 00:43:34 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 00:43:34 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 00:43:34 2011
+-Debug-|dp->d_name = |02 - Guerrilla Radio.mp3|
+Sat Dec 17 00:43:34 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 00:43:34 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 00:43:34 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 00:43:34 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 00:43:34 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:03:30 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:03:30 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:03:30 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:03:30 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:03:30 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:04:50 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:04:50 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:04:50 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:04:50 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:04:50 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:04:50 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:04:50 2011
+-Debug-|path = |/home/max/test1/03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:04:50 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:04:50 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:04:50 2011
+-Debug-|path = |/home/max/test1/03 - Calm Like A Bomb.mp301 - Testify.mp3|
+Sat Dec 17 01:12:55 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:12:55 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:12:55 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:12:55 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:12:55 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:12:55 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:12:55 2011
+-Debug-|path = |/home/max/test1/03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:12:55 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:12:55 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:12:55 2011
+-Debug-|path = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 01:12:55 2011
+-Debug-|dp->d_name = |02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:12:55 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:12:55 2011
+-Debug-|path = |/home/max/test1/02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:12:55 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:12:55 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:12:55 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:12:55 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:17:04 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:17:04 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:17:04 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:17:04 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:17:04 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:17:04 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:17:04 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 01:17:04 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:17:04 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:17:04 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 01:17:04 2011
+-Debug-|dp->d_name = |02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:17:04 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:17:04 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 01:17:04 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:17:04 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:17:04 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:17:04 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:18:11 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:18:11 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:18:11 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:18:11 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:18:11 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:18:11 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:18:11 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 01:18:11 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:18:11 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:18:11 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 01:18:11 2011
+-Debug-|dp->d_name = |02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:18:11 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:18:11 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 01:18:11 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:18:11 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:18:11 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:18:11 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:20:18 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:20:18 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:20:18 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:20:18 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:20:18 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:20:18 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:20:18 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 01:20:18 2011
+-Debug-|title = ||
+Sat Dec 17 01:20:18 2011
+-Debug-|artist = ||
+Sat Dec 17 01:20:18 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:20:18 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:20:18 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 01:20:18 2011
+-Debug-|title = ||
+Sat Dec 17 01:20:18 2011
+-Debug-|artist = ||
+Sat Dec 17 01:20:18 2011
+-Debug-|dp->d_name = |02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:20:18 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:20:18 2011
+-Debug-|path = |/home/max/test1/|
+Sat Dec 17 01:20:18 2011
+-Debug-|title = ||
+Sat Dec 17 01:20:18 2011
+-Debug-|artist = ||
+Sat Dec 17 01:20:18 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:20:18 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:20:18 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:20:18 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:28:52 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:28:52 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:28:52 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:28:52 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:28:52 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:28:52 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:28:52 2011
+-Debug-|aux = |/home/max/test1/03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:28:52 2011
+-Debug-|title = |Calm Like A Bomb|
+Sat Dec 17 01:28:52 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:28:52 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:28:52 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:28:52 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 01:28:52 2011
+-Debug-|title = |Testify|
+Sat Dec 17 01:28:52 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:28:52 2011
+-Debug-|dp->d_name = |02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:28:52 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:28:52 2011
+-Debug-|aux = |/home/max/test1/02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:28:52 2011
+-Debug-|title = |Guerrilla Radio|
+Sat Dec 17 01:28:52 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:28:52 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:28:52 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:28:52 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:28:52 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:30:33 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:30:33 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:30:33 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:30:33 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:30:33 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:30:33 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:30:33 2011
+-Debug-|aux = |/home/max/test1/03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:30:33 2011
+-Debug-|title = |Calm Like A Bomb|
+Sat Dec 17 01:30:33 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:30:33 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:30:33 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:30:33 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 01:30:33 2011
+-Debug-|title = |Testify|
+Sat Dec 17 01:30:33 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:30:33 2011
+-Debug-|dp->d_name = |02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:30:33 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:30:33 2011
+-Debug-|aux = |/home/max/test1/02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:30:33 2011
+-Debug-|title = |Guerrilla Radio|
+Sat Dec 17 01:30:33 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:30:33 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:30:33 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:30:33 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:30:33 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:31:31 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:31:31 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:31:31 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:31:31 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |11 - Ashes In The Fall.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/11 - Ashes In The Fall.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Ashes In The Fall|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |09 - Voice Of The Voiceless.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/09 - Voice Of The Voiceless.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Voice Of The Voiceless|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/03 - Calm Like A Bomb.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Calm Like A Bomb|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |04 - Mic Check.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/04 - Mic Check.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Mic Check|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |06 - Born Of A Broken Man.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/06 - Born Of A Broken Man.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Born Of A Broken Man|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |12 - War Within A Breath.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/12 - War Within A Breath.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |War Within A Breath|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Testify|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |10 - New Millennium Homes.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/10 - New Millennium Homes.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |New Millennium Homes|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/02 - Guerrilla Radio.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Guerrilla Radio|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |07 - Born As Ghosts.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/07 - Born As Ghosts.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Born As Ghosts|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |05 - Sleep Now In The Fire.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/05 - Sleep Now In The Fire.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Sleep Now In The Fire|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|dp->d_name = |08 - Maria.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:31:31 2011
+-Debug-|aux = |/home/max/test1/08 - Maria.mp3|
+Sat Dec 17 01:31:31 2011
+-Debug-|title = |Maria|
+Sat Dec 17 01:31:31 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:31:31 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:31:31 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:31:31 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:31:31 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:32:39 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:32:39 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:32:39 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:32:39 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:32:39 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:32:39 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:32:39 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 01:32:40 2011
+-Debug-|title = |Testify|
+Sat Dec 17 01:32:40 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:32:40 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:32:40 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:32:40 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:32:40 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:33:02 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:33:31 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:33:31 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:33:31 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:33:31 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:33:53 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:34:09 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:34:49 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:34:49 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:34:49 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:34:49 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:34:50 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:34:50 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:34:50 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 01:34:50 2011
+-Debug-|title = |Testify|
+Sat Dec 17 01:34:50 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:34:50 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:34:50 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:34:50 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:34:50 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 01:35:28 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 01:35:28 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 01:35:28 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 01:35:28 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 01:35:28 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 01:35:28 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 01:35:28 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 01:35:28 2011
+-Debug-|title = |Testify|
+Sat Dec 17 01:35:28 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 01:35:28 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 01:35:28 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 01:35:28 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 01:35:28 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 02:38:44 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 02:38:44 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 02:38:44 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 02:38:44 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 02:38:44 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 02:38:44 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 02:38:44 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 02:38:44 2011
+-Debug-|title = |Testify|
+Sat Dec 17 02:38:44 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 02:38:44 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 02:38:44 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 02:38:44 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 02:38:44 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 02:41:53 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 02:41:53 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 02:41:53 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 02:41:53 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 02:41:53 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 02:41:53 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 02:41:53 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 02:41:53 2011
+-Debug-|title = |Testify|
+Sat Dec 17 02:41:53 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 02:41:53 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 02:41:53 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 02:41:53 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 02:41:53 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 02:46:00 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 02:46:00 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 02:46:00 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 02:46:00 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 02:46:00 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 02:46:00 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 02:46:00 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 02:46:00 2011
+-Debug-|title = |Testify|
+Sat Dec 17 02:46:00 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 02:46:00 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 02:46:00 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 02:46:00 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 02:46:00 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 03:17:03 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 03:17:03 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 03:17:03 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 03:17:03 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 03:17:03 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 03:17:03 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 03:17:03 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 03:17:03 2011
+-Debug-|title = |Testify|
+Sat Dec 17 03:17:03 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 03:17:03 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 03:17:03 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 03:17:03 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 03:17:03 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 04:35:47 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 04:35:47 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 04:35:47 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 04:35:47 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 04:35:47 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 04:35:47 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 04:35:47 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 04:35:47 2011
+-Debug-|title = |Testify|
+Sat Dec 17 04:35:47 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 04:35:47 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 04:35:47 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 04:35:47 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 04:35:47 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 04:37:03 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 04:37:03 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 04:37:03 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 04:37:03 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 04:37:03 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 04:37:03 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 04:37:03 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 04:37:03 2011
+-Debug-|title = |Testify|
+Sat Dec 17 04:37:03 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 04:37:03 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 04:37:03 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 04:37:03 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 04:37:03 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 04:37:26 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 04:37:26 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 04:37:26 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 04:37:26 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 04:37:26 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 04:37:26 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 04:37:26 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 04:37:26 2011
+-Debug-|title = |Testify|
+Sat Dec 17 04:37:26 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 04:37:26 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 04:37:26 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 04:37:26 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 04:37:26 2011
+-Debug-|destrui vector, libero path|
+Sat Dec 17 04:39:32 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 04:39:32 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 04:39:32 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 04:39:32 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 04:39:32 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 04:39:32 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 04:39:32 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 04:39:32 2011
+-Debug-|title = |Testify|
+Sat Dec 17 04:39:32 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 04:39:32 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 05:28:49 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 05:28:49 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 05:28:49 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 05:28:49 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 05:28:49 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 05:28:49 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 05:28:49 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 05:28:49 2011
+-Debug-|title = |Testify|
+Sat Dec 17 05:28:49 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 05:28:49 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 05:36:10 2011
+-Debug-|Nuevo Test
+|
+Sat Dec 17 05:36:10 2011
+-Debug-|valide, voy a crear vector|
+Sat Dec 17 05:36:10 2011
+-Debug-|cree vector, voy a setear printer del vector|
+Sat Dec 17 05:36:10 2011
+-Debug-|setie, voy a cargar vector|
+Sat Dec 17 05:36:10 2011
+-Debug-|dp->d_name = |01 - Testify.mp3|
+Sat Dec 17 05:36:10 2011
+-Debug-|se copio bien con my_strcat|
+Sat Dec 17 05:36:10 2011
+-Debug-|aux = |/home/max/test1/01 - Testify.mp3|
+Sat Dec 17 05:36:10 2011
+-Debug-|title = |Testify|
+Sat Dec 17 05:36:10 2011
+-Debug-|artist = |Rage Against The Machine|
+Sat Dec 17 05:36:10 2011
+-Debug-|cargue vector, voy a exportar|
+Sat Dec 17 05:36:10 2011
+-Debug-|exporte, seteo destructor|
+Sat Dec 17 05:36:10 2011
+-Debug-|setie, destruyo vector|
+Sat Dec 17 05:36:10 2011
+-Debug-|destrui vector, libero path|
