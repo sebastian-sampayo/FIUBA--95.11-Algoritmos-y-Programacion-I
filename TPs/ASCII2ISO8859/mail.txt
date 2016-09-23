@@ -1,0 +1,261 @@
+/* ascii2iso8859.c 
+Descripcion: Convierte caracteres de ASCII extendido (160-255) a ISO-8859-1
+Uso: archivoASCII.txt | ascii2iso8859.exe -standard > salida.txt
+Notas:
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define NUL '\0'
+#include "setup.h"
+#include "status.h"
+#include "validaciones.h"
+#include "diccionarios.h"
+#define DEBUG
+
+typedef enum{FALSE, TRUE} boolean;
+
+void convertir(short , short [], const char *[]);
+void inic_ASCIIcharset(short , short , short *);
+
+int main(int argc, char *argv[])
+{
+  status_t status;
+  short items;
+ 
+  inic_ASCIIcharset(ASCII_DESDE, ASCII_HASTA, ASCIIcharset);
+
+  /********VALIDACIONES*******/  
+  status = validar_nitems(ASCIIcharset, ISOcharset, &items);
+  if (status != OK)
+    return status;
+
+  status = validar_argc(argc, ARGS);
+  if (status != OK)
+    return status;
+
+  status = validar_argv(argv, ARGC1, ARGV1);
+  if (status != OK)
+    return status;
+  /**************************/
+
+  convertir(items, ASCIIcharset, ISOcharset);
+
+  return EXIT_SUCCESS;
+}
+
+void convertir(short items, short arrCharset1[], const char *parrCharset2[])
+{
+  boolean Traducido;
+  short i, c;
+  
+  while ((c = getchar())!=EOF)
+  {
+    Traducido = FALSE;
+    for (i = 0; i < items; i++)
+    {
+      if (c == arrCharset1[i])
+      {
+        Traducido = TRUE;
+        printf("%s", parrCharset2[i]);
+        #ifdef DEBUG
+	  fprintf(stderr, "traducido c = %c | %d----->%s\n", c, c, parrCharset2[i]);
+	#endif
+        break;
+      }
+    }
+    if (Traducido == FALSE) putchar(c);
+  }
+}
+
+void inic_ASCIIcharset(short inicio, short fin, short *p)
+{
+  short i;
+  for (i = 0; inicio<=fin; i++, inicio++)
+    p[i] = inicio;
+
+  /*agrego caracteres que no están ordenados*/
+  p[i++] = 36;
+  p[i++] = 38;
+  p[i++] = 60;
+  p[i++] = 62;
+}
+
+
+-------------------------------------------------------------------
+
+setup.h
+
+#define ERR_ARGC_MSJ "Cantidad de argumentos inválida"
+#define MSJ_USO_CORRECTO "Uso correcto: ascii2iso8859.exe -standard"
+#define ARGV1 "-standard"
+#define ARGC1 1
+#define MAX_ITEMS 255
+#define ARGS 2
+#define ASCII_DESDE 160  /*inclusive*/
+#define ASCII_HASTA 255  /*inclusive*/
+
+
+-------------------------------------------------------------------
+
+status.h
+
+typedef enum{   OK = 0,
+		ERR_NITEMS = 10,
+		ERR_ARGC = 20,
+		ERR_ARGV = 30} status_t;
+
+
+-------------------------------------------------------------------
+
+validaciones.h
+
+/**********PROTOTIPOS*************/
+status_t validar_nitems(short [], const char *[], short *); /*valida y almacena la cantidad de items por puntero*/
+status_t validar_argc(short , short);
+status_t validar_argv(char *[], short, char *);
+
+status_t validar_nitems(short arrCharset1[], const char *parrCharset2[], short *pitems)
+{
+  short i;
+  
+  for (i=0; arrCharset1[i]!=NUL && parrCharset2[i]!=NULL; i++);
+  if (arrCharset1[i]==NUL && parrCharset2[i]==NULL)
+  {
+    *pitems = i;
+    return OK;
+  }
+  else
+    return ERR_NITEMS;
+}
+
+status_t validar_argc(short argc, short args)
+{
+  if (argc != args)
+  {
+    puts(ERR_ARGC_MSJ);
+    puts(MSJ_USO_CORRECTO);
+    return ERR_ARGC;
+  } else return OK;
+}
+
+status_t validar_argv(char *argv[], short narg, char *argumento)
+{
+  if (strcmp(argv[narg], argumento))
+    return ERR_ARGV;
+  else return OK;
+}
+
+
+-------------------------------------------------------------------
+
+diccionarios.h
+
+short ASCIIcharset[MAX_ITEMS] = {0};
+
+const char *ISOcharset[MAX_ITEMS] = {
+"&nbsp;",
+"&iexcl;",
+"&cent;",
+"&pound;",
+"&curren;",
+"&yen;",
+"&brvbar;",
+"&sect;",
+"&uml;",
+"&copy;",
+"&ordf;",
+"&laquo;",
+"&not;",
+"&shy;",
+"&reg;",
+"&macr;",
+"&deg;",
+"&plusmn;",
+"&sup2;",
+"&sup3;",
+"&acute;",
+"&micro;",
+"&para;",
+"&middot;",
+"&cedil;",
+"&sup1;",
+"&ordm;",
+"&raquo;",
+"&frac14;",
+"&frac12;",
+"&frac34;",
+"&iquest;",
+"&Agrave;",
+"&Aacute;",
+"&Acirc;",
+"&Atilde;",
+"&Auml;",
+"&Aring;",
+"&AElig;",
+"&Ccedil;",
+"&Egrave;",
+"&Eacute;",
+"&Ecirc;",
+"&Euml;",
+"&Igrave;",
+"&Iacute;",
+"&Icirc;",
+"&Iuml;",
+"&ETH;",
+"&Ntilde;",
+"&Ograve;",
+"&Oacute;",
+"&Ocirc;",
+"&Otilde;",
+"&Ouml;",
+"&times;",
+"&Oslash;",
+"&Ugrave;",
+"&Uacute;",
+"&Ucirc;",
+"&Uuml;",
+"&Yacute;",
+"&THORN;",
+"&szlig;",
+"&agrave;",
+"&aacute;",
+"&acirc;",
+"&atilde;",
+"&auml;",
+"&aring;",
+"&aelig;",
+"&ccedil;",
+"&egrave;",
+"&eacute;",
+"&ecirc;",
+"&euml;",
+"&igrave;",
+"&iacute;",
+"&icirc;",
+"&iuml;",
+"&eth;",
+"&ntilde;",
+"&ograve;",
+"&oacute;",
+"&ocirc;",
+"&otilde;",
+"&ouml;",
+"&divide;",
+"&oslash;",
+"&ugrave;",
+"&uacute;",
+"&ucirc;",
+"&uuml;",
+"&yacute;",
+"&thorn;",
+"&yuml;",
+"&quot;",
+"&amp;",
+"&lt;",
+"&gt;",
+NULL};
+
+
+-------------------------------------------------------------------
+

@@ -1,0 +1,316 @@
+/* ascii2iso8859.c 
+Descripcion: Convierte caracteres de ASCII extendido (160-255) a ISO-8859-1
+Uso: archivoASCII.txt | ascii2iso8859.exe -standard > salida.txt
+Notas: 
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "setup.h"
+#include "status.h"
+#include "diccionarios.h"
+#define DEBUG
+
+typedef enum{FALSE, TRUE} boolean;
+/***************PROTOTIPOS******************/
+void convertir(const char [], const char *[]);
+status_t validar_argc(short , short);
+status_t validar_argv(char *[], short, char *);
+
+int main(int argc, char *argv[])
+{
+  status_t status;
+
+  /********VALIDACIONES*******/  
+  status = validar_argc(argc, ARGS);
+  if (status != OK)
+    return status;
+
+  status = validar_argv(argv, ARGC1, ARGV1);
+  if (status != OK)
+    return status;
+  /**************************/
+
+  convertir(ASCIIcharset, ISOcharset);
+
+  return EXIT_SUCCESS;
+}
+
+void convertir(const char arrCharset1[], const char *parrCharset2[])
+{
+  boolean Traducido;
+  short i, c;
+  while ((c = getchar())!=EOF)
+  {
+    Traducido = FALSE;
+    for (i = 0; i < ITEMS; i++)
+    {
+      if (c == arrCharset1[i])
+      {
+        Traducido = TRUE;
+        printf("%s", parrCharset2[i]);
+        #ifdef DEBUG
+	  fprintf(stderr, "traducido c = %c | %d----->%s\n", c, c, parrCharset2[i]);
+	#endif
+        break;
+      }
+    }
+    if (Traducido == FALSE) putchar(c);
+  }
+}
+
+-------------------------------------------------------------
+*********setup.h
+
+#define ERR_ARGC_MSJ "Cantidad de argumentos inválida"
+#define ERR_ARGV_MSJ "Argumento inválido"
+#define MSJ_USO_CORRECTO "Uso correcto: ascii2iso8859.exe -standard"
+#define ARGV1 "-standard"
+#define ARGC1 1
+#define ARGS 2
+#define ITEMS 100
+
+-------------------------------------------------------------
+
+*********status.h
+
+typedef enum{   OK = 0,
+		ERR_NITEMS = 10,
+		ERR_ARGC = 20,
+		ERR_ARGV = 30} status_t;
+
+-------------------------------------------------------------
+
+*********validaciones.c
+
+#include <stdio.h>
+#include <string.h>
+#include "setup.h"
+#include "status.h"
+
+status_t validar_argc(short argc, short args)
+{
+  if (argc != args)
+  {
+    puts(ERR_ARGC_MSJ);
+    puts(MSJ_USO_CORRECTO);
+    return ERR_ARGC;
+  } else return OK;
+}
+
+status_t validar_argv(char *argv[], short narg, char *argumento)
+{
+  if (strcmp(argv[narg], argumento))
+    return ERR_ARGV;
+  else return OK;
+}
+
+-------------------------------------------------------------
+
+*********diccionarios.h
+
+const char ASCIIcharset[ITEMS] = {
+160,
+161,
+162,
+163,
+164,
+165,
+166,
+167,
+168,
+169,
+170,
+171,
+172,
+173,
+174,
+175,
+176,
+177,
+178,
+179,
+180,
+181,
+182,
+183,
+184,
+185,
+186,
+187,
+188,
+189,
+190,
+191,
+192,
+193,
+194,
+195,
+196,
+197,
+198,
+199,
+200,
+201,
+202,
+203,
+204,
+205,
+206,
+207,
+208,
+209,
+210,
+211,
+212,
+213,
+214,
+215,
+216,
+217,
+218,
+219,
+220,
+221,
+222,
+223,
+224,
+225,
+226,
+227,
+228,
+229,
+230,
+231,
+232,
+233,
+234,
+235,
+236,
+237,
+238,
+239,
+240,
+241,
+242,
+243,
+244,
+245,
+246,
+247,
+248,
+249,
+250,
+251,
+252,
+253,
+254,
+255,
+34,
+38,
+60,
+62,
+};
+
+const char *ISOcharset[ITEMS] = {
+"&nbsp;",
+"&iexcl;",
+"&cent;",
+"&pound;",
+"&curren;",
+"&yen;",
+"&brvbar;",
+"&sect;",
+"&uml;",
+"&copy;",
+"&ordf;",
+"&laquo;",
+"&not;",
+"&shy;",
+"&reg;",
+"&macr;",
+"&deg;",
+"&plusmn;",
+"&sup2;",
+"&sup3;",
+"&acute;",
+"&micro;",
+"&para;",
+"&middot;",
+"&cedil;",
+"&sup1;",
+"&ordm;",
+"&raquo;",
+"&frac14;",
+"&frac12;",
+"&frac34;",
+"&iquest;",
+"&Agrave;",
+"&Aacute;",
+"&Acirc;",
+"&Atilde;",
+"&Auml;",
+"&Aring;",
+"&AElig;",
+"&Ccedil;",
+"&Egrave;",
+"&Eacute;",
+"&Ecirc;",
+"&Euml;",
+"&Igrave;",
+"&Iacute;",
+"&Icirc;",
+"&Iuml;",
+"&ETH;",
+"&Ntilde;",
+"&Ograve;",
+"&Oacute;",
+"&Ocirc;",
+"&Otilde;",
+"&Ouml;",
+"&times;",
+"&Oslash;",
+"&Ugrave;",
+"&Uacute;",
+"&Ucirc;",
+"&Uuml;",
+"&Yacute;",
+"&THORN;",
+"&szlig;",
+"&agrave;",
+"&aacute;",
+"&acirc;",
+"&atilde;",
+"&auml;",
+"&aring;",
+"&aelig;",
+"&ccedil;",
+"&egrave;",
+"&eacute;",
+"&ecirc;",
+"&euml;",
+"&igrave;",
+"&iacute;",
+"&icirc;",
+"&iuml;",
+"&eth;",
+"&ntilde;",
+"&ograve;",
+"&oacute;",
+"&ocirc;",
+"&otilde;",
+"&ouml;",
+"&divide;",
+"&oslash;",
+"&ugrave;",
+"&uacute;",
+"&ucirc;",
+"&uuml;",
+"&yacute;",
+"&thorn;",
+"&yuml;",
+"&quot;",
+"&amp;",
+"&lt;",
+"&gt;"
+};
